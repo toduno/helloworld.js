@@ -1,8 +1,8 @@
-// var http = require('http');
-// http.createServer(function (req, res) {
-//     res.writeHead(200, {'Content-Type': 'text/html'});
-//     res.end('Hello World!');
-// }).listen(8080);
+var http = require('http');
+http.createServer(function (req, res) {
+    res.writeHead(200, {'Content-Type': 'text/html'});
+    res.end('Hello World!');
+}).listen(8080);
 
 // require('dotenv').config();
 // const express = require('express');
@@ -17,13 +17,13 @@
 //   console.log(`Server running on port ${port}`);
 // });
 
-const http = require('http');
+// const http = require('http');
 
-const server = http.createServer((req, res) => {
-  res.writeHead(200, { 'Content-Type': 'text/html' });
-  res.end('<h1>Hello World</h1>');
-});
+// const server = http.createServer((req, res) => {
+//   res.writeHead(200, { 'Content-Type': 'text/html' });
+//   res.end('<h1>Hello World</h1>');
+// });
 
-server.listen(80, () => {
-  console.log('Server running on port 80');
-});
+// server.listen(80, () => {
+//   console.log('Server running on port 80');
+// });
